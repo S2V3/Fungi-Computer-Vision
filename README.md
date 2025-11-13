@@ -106,23 +106,3 @@ Open `notebooks/` for:
 
 ---
 
-## Tips
-
-- Handle class imbalance with weighted sampling and focal loss
-- Apply data augmentation: rotation, blur, scaling, color jitter
-- Incorporate metadata (location, ecology) for improved predictions
-- Experiment with ensemble methods for higher accuracy
-
----
-
-## References
-
-- [FungiCLEF25 @ CVPR-FGVC & LifeCLEF 2025](https://www.kaggle.com/competitions/lifeclef-2025-fungiclef)
-
----
-'''
-
-# Write to file
-with open('README_FungiCLEF25.md', 'w', encoding='utf-8') as f:
-    f.write(fungiclef_readme)
-'File README_FungiCLEF25.md generated.'
